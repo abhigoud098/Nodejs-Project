@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>welcome, <%= name %></h1>
+    <form action="/delet_data" method="post">
+        <h1>Delete data</h1>
+        <input name="username" type="text" placeholder="Enter your user username" required>
+        <input name="pass" type="password" placeholder="Enter a password" required>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <form action="/update_data" method="post">
+        <h1>update data</h1>
+        <input name="username" type="email" placeholder="Enter your username" required>
+        <input name="email" type="text" placeholder="Enter your new email" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html
